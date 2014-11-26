@@ -1,0 +1,351 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4458CC361A26741100A0348C /* Soundorama.h in Headers */ = {isa = PBXBuildFile; fileRef = 4458CC351A26741100A0348C /* Soundorama.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4458CC501A2674E300A0348C /* SDRContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 4458CC4E1A2674E300A0348C /* SDRContext.h */; };
+		4458CC511A2674E300A0348C /* SDRContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 4458CC4F1A2674E300A0348C /* SDRContext.m */; };
+		4458CC541A26755D00A0348C /* SDRBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 4458CC521A26755D00A0348C /* SDRBuffer.h */; };
+		4458CC551A26755D00A0348C /* SDRBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4458CC531A26755D00A0348C /* SDRBuffer.m */; };
+		4458CC581A26759100A0348C /* SDRSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 4458CC561A26759100A0348C /* SDRSource.h */; };
+		4458CC591A26759100A0348C /* SDRSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 4458CC571A26759100A0348C /* SDRSource.m */; };
+		4458CC5C1A26774900A0348C /* SDRSound.h in Headers */ = {isa = PBXBuildFile; fileRef = 4458CC5A1A26774900A0348C /* SDRSound.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4458CC5D1A26774900A0348C /* SDRSound.m in Sources */ = {isa = PBXBuildFile; fileRef = 4458CC5B1A26774900A0348C /* SDRSound.m */; };
+		4458CC601A267AE600A0348C /* SDREthoMusic.h in Headers */ = {isa = PBXBuildFile; fileRef = 4458CC5E1A267AE600A0348C /* SDREthoMusic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4458CC611A267AE600A0348C /* SDREthoMusic.m in Sources */ = {isa = PBXBuildFile; fileRef = 4458CC5F1A267AE600A0348C /* SDREthoMusic.m */; };
+		4458CC631A267B6300A0348C /* MoCategories.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4458CC621A267B6300A0348C /* MoCategories.framework */; };
+		4458CC661A267DE500A0348C /* SDRPongSound.h in Headers */ = {isa = PBXBuildFile; fileRef = 4458CC641A267DE500A0348C /* SDRPongSound.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4458CC671A267DE500A0348C /* SDRPongSound.m in Sources */ = {isa = PBXBuildFile; fileRef = 4458CC651A267DE500A0348C /* SDRPongSound.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4458CC301A26741100A0348C /* Soundorama.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Soundorama.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4458CC341A26741100A0348C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4458CC351A26741100A0348C /* Soundorama.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Soundorama.h; sourceTree = "<group>"; };
+		4458CC4E1A2674E300A0348C /* SDRContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDRContext.h; sourceTree = "<group>"; };
+		4458CC4F1A2674E300A0348C /* SDRContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDRContext.m; sourceTree = "<group>"; };
+		4458CC521A26755D00A0348C /* SDRBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDRBuffer.h; sourceTree = "<group>"; };
+		4458CC531A26755D00A0348C /* SDRBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDRBuffer.m; sourceTree = "<group>"; };
+		4458CC561A26759100A0348C /* SDRSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDRSource.h; sourceTree = "<group>"; };
+		4458CC571A26759100A0348C /* SDRSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDRSource.m; sourceTree = "<group>"; };
+		4458CC5A1A26774900A0348C /* SDRSound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDRSound.h; sourceTree = "<group>"; };
+		4458CC5B1A26774900A0348C /* SDRSound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDRSound.m; sourceTree = "<group>"; };
+		4458CC5E1A267AE600A0348C /* SDREthoMusic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDREthoMusic.h; sourceTree = "<group>"; };
+		4458CC5F1A267AE600A0348C /* SDREthoMusic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDREthoMusic.m; sourceTree = "<group>"; };
+		4458CC621A267B6300A0348C /* MoCategories.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MoCategories.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Terracraft-fgwlerhvgkgctleflgoncyemwavb/Build/Products/Debug-iphoneos/MoCategories.framework"; sourceTree = "<group>"; };
+		4458CC641A267DE500A0348C /* SDRPongSound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDRPongSound.h; sourceTree = "<group>"; };
+		4458CC651A267DE500A0348C /* SDRPongSound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDRPongSound.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4458CC2C1A26741100A0348C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4458CC631A267B6300A0348C /* MoCategories.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4458CC261A26741100A0348C = {
+			isa = PBXGroup;
+			children = (
+				4458CC321A26741100A0348C /* Soundorama */,
+				4458CC681A267E7700A0348C /* Frameworks */,
+				4458CC311A26741100A0348C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4458CC311A26741100A0348C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4458CC301A26741100A0348C /* Soundorama.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4458CC321A26741100A0348C /* Soundorama */ = {
+			isa = PBXGroup;
+			children = (
+				4458CC351A26741100A0348C /* Soundorama.h */,
+				4458CC521A26755D00A0348C /* SDRBuffer.h */,
+				4458CC531A26755D00A0348C /* SDRBuffer.m */,
+				4458CC4E1A2674E300A0348C /* SDRContext.h */,
+				4458CC4F1A2674E300A0348C /* SDRContext.m */,
+				4458CC5E1A267AE600A0348C /* SDREthoMusic.h */,
+				4458CC5F1A267AE600A0348C /* SDREthoMusic.m */,
+				4458CC641A267DE500A0348C /* SDRPongSound.h */,
+				4458CC651A267DE500A0348C /* SDRPongSound.m */,
+				4458CC5A1A26774900A0348C /* SDRSound.h */,
+				4458CC5B1A26774900A0348C /* SDRSound.m */,
+				4458CC561A26759100A0348C /* SDRSource.h */,
+				4458CC571A26759100A0348C /* SDRSource.m */,
+				4458CC331A26741100A0348C /* Supporting Files */,
+			);
+			path = Soundorama;
+			sourceTree = "<group>";
+		};
+		4458CC331A26741100A0348C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4458CC341A26741100A0348C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4458CC681A267E7700A0348C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4458CC621A267B6300A0348C /* MoCategories.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4458CC2D1A26741100A0348C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4458CC541A26755D00A0348C /* SDRBuffer.h in Headers */,
+				4458CC601A267AE600A0348C /* SDREthoMusic.h in Headers */,
+				4458CC661A267DE500A0348C /* SDRPongSound.h in Headers */,
+				4458CC501A2674E300A0348C /* SDRContext.h in Headers */,
+				4458CC361A26741100A0348C /* Soundorama.h in Headers */,
+				4458CC581A26759100A0348C /* SDRSource.h in Headers */,
+				4458CC5C1A26774900A0348C /* SDRSound.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4458CC2F1A26741100A0348C /* Soundorama */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4458CC461A26741100A0348C /* Build configuration list for PBXNativeTarget "Soundorama" */;
+			buildPhases = (
+				4458CC2B1A26741100A0348C /* Sources */,
+				4458CC2C1A26741100A0348C /* Frameworks */,
+				4458CC2D1A26741100A0348C /* Headers */,
+				4458CC2E1A26741100A0348C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Soundorama;
+			productName = Soundorama;
+			productReference = 4458CC301A26741100A0348C /* Soundorama.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4458CC271A26741100A0348C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SDR;
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Eduardo Mauricio da Costa";
+				TargetAttributes = {
+					4458CC2F1A26741100A0348C = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = 4458CC2A1A26741100A0348C /* Build configuration list for PBXProject "Soundorama" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4458CC261A26741100A0348C;
+			productRefGroup = 4458CC311A26741100A0348C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4458CC2F1A26741100A0348C /* Soundorama */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4458CC2E1A26741100A0348C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4458CC2B1A26741100A0348C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4458CC511A2674E300A0348C /* SDRContext.m in Sources */,
+				4458CC591A26759100A0348C /* SDRSource.m in Sources */,
+				4458CC551A26755D00A0348C /* SDRBuffer.m in Sources */,
+				4458CC671A267DE500A0348C /* SDRPongSound.m in Sources */,
+				4458CC611A267AE600A0348C /* SDREthoMusic.m in Sources */,
+				4458CC5D1A26774900A0348C /* SDRSound.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4458CC441A26741100A0348C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4458CC451A26741100A0348C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4458CC471A26741100A0348C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Terracraft-fgwlerhvgkgctleflgoncyemwavb/Build/Products/Debug-iphoneos",
+				);
+				INFOPLIST_FILE = Soundorama/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				MACH_O_TYPE = staticlib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4458CC481A26741100A0348C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Terracraft-fgwlerhvgkgctleflgoncyemwavb/Build/Products/Debug-iphoneos",
+				);
+				INFOPLIST_FILE = Soundorama/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				MACH_O_TYPE = staticlib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4458CC2A1A26741100A0348C /* Build configuration list for PBXProject "Soundorama" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4458CC441A26741100A0348C /* Debug */,
+				4458CC451A26741100A0348C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4458CC461A26741100A0348C /* Build configuration list for PBXNativeTarget "Soundorama" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4458CC471A26741100A0348C /* Debug */,
+				4458CC481A26741100A0348C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4458CC271A26741100A0348C /* Project object */;
+}
