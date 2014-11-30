@@ -16,5 +16,6 @@ FOUNDATION_EXPORT const unsigned char SoundoramaVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <Soundorama/PublicHeader.h>
 #import <Soundorama/SDREthoMusic.h>
+#import <Soundorama/SDROptions.h>
 #import <Soundorama/SDRPongSound.h>
 #import <Soundorama/SDRSound.h>

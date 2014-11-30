@@ -12,6 +12,7 @@
 
 #import "SDRContext.h"
 #import "SDRBuffer.h"
+#import "SDROptions.h"
 #import "SDRSource.h"
 
 #warning Usar apenas um source (ou pool de sources)
@@ -78,6 +79,7 @@
 #pragma mark - Play
 
 - (void)playAt:(CGPoint)p {
+    if ([SDROptions sharedInstance].soundDisabled) return;
     if (src.playing && (src.offset < 0.2)) return;
     
     [buf playUsingSource:src at:p];

@@ -11,6 +11,7 @@
 #import <MoCategories/MoCategories.h>
 
 #import "SDRBuffer.h"
+#import "SDROptions.h"
 #import "SDRSource.h"
 
 @implementation SDREthoMusic {
@@ -30,6 +31,7 @@
 }
 
 - (void)playNote:(SDREthoMusicInstrument *)mmi {
+    if ([SDROptions sharedInstance].musicDisabled) return;
     int pentatonicScale[] = {
         0, 2, 4, 7, 9, 12, 14, 16, 19, 21
     };

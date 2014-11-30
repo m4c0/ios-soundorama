@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4453B6F11A2ADE4F008EF31D /* SDROptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 4453B6EF1A2ADE4F008EF31D /* SDROptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4453B6F21A2ADE4F008EF31D /* SDROptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4453B6F01A2ADE4F008EF31D /* SDROptions.m */; };
 		4458CC361A26741100A0348C /* Soundorama.h in Headers */ = {isa = PBXBuildFile; fileRef = 4458CC351A26741100A0348C /* Soundorama.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4458CC501A2674E300A0348C /* SDRContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 4458CC4E1A2674E300A0348C /* SDRContext.h */; };
 		4458CC511A2674E300A0348C /* SDRContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 4458CC4F1A2674E300A0348C /* SDRContext.m */; };
@@ -24,6 +26,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4453B6EF1A2ADE4F008EF31D /* SDROptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDROptions.h; sourceTree = "<group>"; };
+		4453B6F01A2ADE4F008EF31D /* SDROptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDROptions.m; sourceTree = "<group>"; };
 		4458CC301A26741100A0348C /* Soundorama.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Soundorama.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4458CC341A26741100A0348C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4458CC351A26741100A0348C /* Soundorama.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Soundorama.h; sourceTree = "<group>"; };
@@ -81,6 +85,8 @@
 				4458CC4F1A2674E300A0348C /* SDRContext.m */,
 				4458CC5E1A267AE600A0348C /* SDREthoMusic.h */,
 				4458CC5F1A267AE600A0348C /* SDREthoMusic.m */,
+				4453B6EF1A2ADE4F008EF31D /* SDROptions.h */,
+				4453B6F01A2ADE4F008EF31D /* SDROptions.m */,
 				4458CC641A267DE500A0348C /* SDRPongSound.h */,
 				4458CC651A267DE500A0348C /* SDRPongSound.m */,
 				4458CC5A1A26774900A0348C /* SDRSound.h */,
@@ -122,6 +128,7 @@
 				4458CC361A26741100A0348C /* Soundorama.h in Headers */,
 				4458CC581A26759100A0348C /* SDRSource.h in Headers */,
 				4458CC5C1A26774900A0348C /* SDRSound.h in Headers */,
+				4453B6F11A2ADE4F008EF31D /* SDROptions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,6 +205,7 @@
 				4458CC551A26755D00A0348C /* SDRBuffer.m in Sources */,
 				4458CC671A267DE500A0348C /* SDRPongSound.m in Sources */,
 				4458CC611A267AE600A0348C /* SDREthoMusic.m in Sources */,
+				4453B6F21A2ADE4F008EF31D /* SDROptions.m in Sources */,
 				4458CC5D1A26774900A0348C /* SDRSound.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -344,6 +352,7 @@
 				4458CC481A26741100A0348C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

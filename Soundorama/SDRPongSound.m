@@ -9,6 +9,7 @@
 #import "SDRPongSound.h"
 
 #import <AudioToolbox/AudioToolbox.h>
+#import "SDROptions.h"
 
 @interface SDRPongSound ()
 - (OSStatus)renderToneInto:(Float32 *)buffer frames:(UInt32)numberFrames;
@@ -78,6 +79,7 @@ static OSStatus fSDRPongSoundRenderTone(void *                       refCon,
 }
 
 - (void)play:(float)freq {
+    if ([SDROptions sharedInstance].soundDisabled) return;
     if (frequency != -1) {
         frequency = freq;
         theta = 0;
