@@ -9,7 +9,7 @@
 #import "SDRContext.h"
 
 @import AVFoundation;
-@import OpenAL.ALC;
+@import OpenAL.alc;
 
 @implementation SDRContext
 
